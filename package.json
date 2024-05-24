@@ -1,0 +1,19 @@
+{
+    "name": "boilerplate-npm-module",
+    "version": "1.0.0",
+    "description": "A boilerplate npm module project with TypeScript and Mocha",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "mocha"
+      },
+    "devDependencies": {
+      "@types/chai": "^4.2.21",
+      "@types/mocha": "^10.0.1",
+      "chai": "^4.3.6",
+      "mocha": "^10.1.0",
+      "ts-node": "^10.9.1",
+      "typescript": "^4.7.4"
+    },
+    "dependencies": {}
+  }
